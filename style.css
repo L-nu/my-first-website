@@ -47,16 +47,32 @@ li {
 }
 
  .second-nav {
+     padding-top: 10px;
 
 
  }
  .product {
      width: 200px;
-     height: 420px;
+     height: 450px;
      border-style: ridge;
-     padding: 10px;
+     
      margin: 10px;
+     border-radius: 20px;
+     box-shadow: 5px 10px 18px rgb(153, 153, 233);
+     
  }
+
+ .product .text{
+    padding: 10px;
+
+ }
+
+ .product img {
+    border-radius: 20px;
+
+ }
+
+
  img {
     width: 200px;
     height: 200px;
@@ -65,6 +81,8 @@ li {
 .flex-container {
     display: flex;
   flex-wrap: wrap;
+  /*box-shadow: 5px 10px 18px red;
+  
 
 }
     
